@@ -1,0 +1,11 @@
+[package]
+name = "python-lsp-klyx"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/python_lsp.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+klyx_extension_api = "1.3.1"

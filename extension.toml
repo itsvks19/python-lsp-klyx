@@ -1,0 +1,11 @@
+id = "pylsp"
+name = "Python LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Vivek"]
+description = "Experimental python-lsp extension for Klyx"
+repository = "https://github.com/itsvks19/python-lsp-klyx"
+
+[language_servers.pylsp]
+name = "pylsp"
+languages = ["Python"]
