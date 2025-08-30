@@ -26,6 +26,9 @@ if [ ! -f "$WASM_FILE" ]; then
     exit 1
 fi
 
+mkdir -p lib
+cp "$WASM_FILE" "lib/"
+
 if command -v wasm2wat >/dev/null 2>&1; then
     if wasm2wat "$WASM_FILE" -o "$WASM_FILE_NAME.wat" 2>/dev/null; then
         echo "Generated WAT using wasm2wat."
