@@ -29,3 +29,7 @@ Use any of the [configuration settings](https://github.com/python-lsp/python-lsp
   }
 }
 ```
+
+---
+
+[source](https://github.com/rgbkrk/python-lsp-zed-extension)
